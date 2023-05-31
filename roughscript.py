@@ -131,7 +131,7 @@ for trigram, count in most_common_trigrams:
     iterator=count
     index=0
     while ((index<(upperBounds))&(iterator>0)):
-        print(index)
+        #print(index)
         #print(hash_map[index])
         if reviewArr[index].find(str(trigram))!=-1:
             iterator-=1
